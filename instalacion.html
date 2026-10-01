@@ -23,20 +23,27 @@
     <li>Internet</li>
   </ul>
   <h2>Instalación con Ventoy</h2>
+
   <ol>
     <li>Descarga de la iso</li>
     <p>Visiten la página oficial de Linux mint y descargan la ISO (Preferiblemente de la versión cinnamon) <a
         href="https://www.linuxmint.com/download.php">Página de Linux Mint</a>.</p>
+    <img src="./imagenes/cinnamon.png" height="400" alt="">
     <p>Después seleccionan la descarga global para una descarga a velocidad normal, o si prefieren la de su país si es
       que hay.</p>
+    <img src="./imagenes/Descarga.png" height="500" width="400" alt="">
     <li>Descarga de ventoy</li>
     <p>Ventoy es un programa para convertir una USB en una USB booteable, esto es lo que nos permitirá instalar Mint en
       la PC.<br> La descarga de ventoy se encuentra en esta página <a
         href="https://www.ventoy.net/en/download.html">Página de ventoy</a>.</p>
-    <p>Seguimos la guía de uso que da este video <a href="https://www.youtube.com/watch?v=DU6lKRYodmE">uso de
-        ventoy</a>.</p>
+    <img src="./imagenes/ventoyDescarga.png" height="400" alt="">
+    <p>Abrimos el archivo de ventoy que siga la misma arquitectura de tu PC (Usualmente es x86_64). Seguidamente
+      conectamos nuestra USB, clickeamos primero en Update y luego en Install.</p>
+    <img src="imagenes/ventoyUso.png" height="400" alt="">
+    <br>
     <b>Advertencia, convertir una USB a booteable requiere borrar todos los archivos dentro de una USB, asegúrense tener
       una USB que no contenga ningún archivo importante.</b>
+    <br>
     <li>Posibles inconvenientes</li>
     <p>Aunque Ventoy se salta el secure boot es posible que este les de algún inconveniente, ese se salta a partir de la
       BIOS. En la mayoría de computadoras se entra a la BIOS reiniciando la PC y presionando seguidamente F2 pero esto
@@ -45,14 +52,27 @@
     <p>Ventoy es un programa que se activa automáticamente al reiniciar la PC (Tienen que mantener conectada la USB
       durante toda la instalación)</p>
     <li>Actualizar el sistema</li>
-    <p>Después de seguir la guía de intalación que ofrece Linux Mint, después de reiniciar la PC pueden retirar la USB y
-      ejecutan una actualización (Esto por motivos de seguridad y rendimiento del sistema).</p>
-    <p>Actualización gráfica: La actualización se ejecuta por medio del símbolo de escudo en la barra inferior.</p>
+    <p>Linux Mint tiene una guía gráfica y automática para la instalación, seleccionen las configuraciones que vean más
+      convenientes y preferiblemente no manipulen lo relacionado a particiones.</p>
+    <img src="https://cmscritic.com/ms-content/uploads/2023/08/how-to-install-linux-mint-the-installer_osklsh.png"
+      height="400" alt="">
+    <p>Actualización gráfica: Presionan la tecla Super(Nombre de la tecla windows en Linux) y escriben "informacion del
+      sistema" o "sistema" si es que lo tienen de alguna manera (También pueden acceder por medio de
+      configuraciones/preferencias) y les saltará un menú con los componentes del sistema operativo y el hardware,
+      seguidamente clickean el botón actualizar/update.</p>
+    <img src="imagenes/linuxMintUpdate.png" height="400" alt="">
+    <p>Para versiones más viejas: La actualización se ejecuta por medio del símbolo de escudo en la barra inferior.</p>
     <p>Actualización por la terminal: Buscan la terminal con la tecla "super" (Como se le llama a la tecla windows en
       Linux) y escriben "terminal" en su lanzador de programas, o ejecutan la terminal con la combinación de teclas ctrl
       + alt + t. Seguidamente escriben en la terminal <b>sudo apt update</b> para registrar el software más nuevo y
       luego <b>sudo apt upgrade</b> para actualizar el sistema.</p>
+    <img src="imagenes/aptUpdate.png" alt="">
+    <br>
+    <img src="imagenes/aptUpgrade.png" alt="">
+    <br>
+    <img src="imagenes/continue.png" alt="">
   </ol>
+
   <h2>Dual Boot</h2>
   <ol>
     <li>Descargar la iso y usar Ventoy/Rufus</li>
