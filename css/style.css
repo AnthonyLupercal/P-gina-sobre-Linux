@@ -19,11 +19,30 @@ header a {
 h1 {
   text-align: center;
 }
+h2 {
+  text-align: center;
+}
+h3 {
+  text-align: center;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid white;
+}
 
 a {
   color: cyan;
 }
 
+#titulo{
+  display: block;
+  background-color: #4F032E;
+  text-align: center;
+  font-size: 40px;
+}
 
 .container {
   display: grid;
@@ -39,6 +58,9 @@ a {
   background-color: #411E3A;
   border-right: 1px solid white;
   border-bottom: 1px solid white;
+}
+.box1 img{
+  border: 0px;
 }
 #box2 {
   grid-column-start: 2;
