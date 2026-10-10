@@ -13,17 +13,20 @@ header{
 }
 
 header a {
-  color:gskyblue;
+  color: skyblue;
 }
 
 h1 {
   text-align: center;
+  color: yellow;
 }
 h2 {
   text-align: center;
+  color: lightgreen;
 }
 h3 {
   text-align: center;
+  color: skyblue;
 }
 
 img {
@@ -71,4 +74,5 @@ footer {
   border-top: 1px solid white;
   background-color: #0D1A2F;
   padding-bottom: 50px;
+  padding-top: 20px;
 }
